@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int main() // Skeleton of main function
+int main()
 {
 	double a, b;
 	int choose = 0;
