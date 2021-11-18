@@ -1,4 +1,5 @@
 #include <iostream>
+#include "funcs.h"
 
 using namespace std;
 
@@ -32,7 +33,7 @@ int main() // Skeleton of main function
 	{
 	case 1:
 	{
-		std::cout << "A + B = " << "Операция уже разрабатывается!" << std::endl;
+		std::cout << "A + B = " << funcSum(a,b) << std::endl;
 		system("pause");
 		break;
 	}
