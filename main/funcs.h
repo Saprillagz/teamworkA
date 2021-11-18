@@ -3,5 +3,6 @@
 #define __FUNCS_H__ 
 
 double funcSum(double, double);
+double funcMul(double, double);
 
 #endif // __FUNCS_H
