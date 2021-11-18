@@ -54,7 +54,7 @@ int main()
 
 	case 4:
 	{
-		std::cout << "Операция уже разрабатывается!" << std::endl;
+		std::cout << "A / B = " << funcDiv(a, b) << std::endl;		
 		system("pause");
 		break;
 	}

@@ -14,3 +14,8 @@ double funcDiff(double a, double b)
 {
 	return a - b;
 }
+
+double funcDiv(double a, double b)
+{
+	return a / b;
+}
