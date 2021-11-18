@@ -1,8 +1,9 @@
 #include <iostream>
+#include "funcs.h"
 
 using namespace std;
 
-int main() // Skeleton of main function
+int main()
 {
 	double a, b;
 	int choose = 0;
@@ -19,8 +20,8 @@ int main() // Skeleton of main function
 
 		std::cout << "Выберите операцию:" << std::endl;
 		std::cout << "1 - A+B" << std::endl;
-		std::cout << "2 - A-B" << std::endl;;
-		std::cout << "3 - A*B" << std::endl;;
+		std::cout << "2 - A*B" << std::endl;;
+		std::cout << "3 - A-B" << std::endl;;
 		std::cout << "4 - A/B" << std::endl;;
 		std::cin >> choose;
 
@@ -32,28 +33,28 @@ int main() // Skeleton of main function
 	{
 	case 1:
 	{
-		std::cout << "A + B = " << "Операция уже разрабатывается!" << std::endl;
+		std::cout << "A + B = " << funcSum(a,b) << std::endl;
 		system("pause");
 		break;
 	}
 
 	case 2:
 	{
-		std::cout << "Операция уже разрабатывается!" << std::endl;
+		std::cout << "A * B = " << funcMul(a,b) << std::endl;
 		system("pause");
 		break;
 	}
 
 	case 3:
 	{
-		std::cout << "Операция уже разрабатывается!" << std::endl;
+		std::cout << "A - B = " << funcDiff(a,b) << std::endl;
 		system("pause");
 		break;
 	}
 
 	case 4:
 	{
-		std::cout << "Операция уже разрабатывается!" << std::endl;
+		std::cout << "A / B = " << funcDiv(a, b) << std::endl;		
 		system("pause");
 		break;
 	}
