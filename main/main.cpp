@@ -20,8 +20,8 @@ int main() // Skeleton of main function
 
 		std::cout << "Выберите операцию:" << std::endl;
 		std::cout << "1 - A+B" << std::endl;
-		std::cout << "2 - A-B" << std::endl;;
-		std::cout << "3 - A*B" << std::endl;;
+		std::cout << "2 - A*B" << std::endl;;
+		std::cout << "3 - A-B" << std::endl;;
 		std::cout << "4 - A/B" << std::endl;;
 		std::cin >> choose;
 
@@ -47,7 +47,7 @@ int main() // Skeleton of main function
 
 	case 3:
 	{
-		std::cout << "Операция уже разрабатывается!" << std::endl;
+		std::cout << "A - B = " << funcDiff(a,b) << std::endl;
 		system("pause");
 		break;
 	}
