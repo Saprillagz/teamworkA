@@ -40,7 +40,7 @@ int main() // Skeleton of main function
 
 	case 2:
 	{
-		std::cout << "Операция уже разрабатывается!" << std::endl;
+		std::cout << "A * B = " << funcMul(a,b) << std::endl;
 		system("pause");
 		break;
 	}
