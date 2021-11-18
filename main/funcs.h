@@ -5,6 +5,6 @@
 double funcSum(double, double);
 double funcMul(double, double);
 double funcDiff(double, double);
-//Земля пухом тебе, Слава, с делением на ноль
+double funcDiv(double, double);
 
 #endif // __FUNCS_H
